@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "furn01",
+      "type": "mainProject.bean.Furn",
+      "sourceType": "mainProject.bean.Furn"
+    }
+  ],
+  "properties": [
+    {
+      "name": "furn01.id",
+      "type": "java.lang.Integer",
+      "sourceType": "mainProject.bean.Furn"
+    },
+    {
+      "name": "furn01.name",
+      "type": "java.lang.String",
+      "sourceType": "mainProject.bean.Furn"
+    },
+    {
+      "name": "furn01.price",
+      "type": "java.lang.Double",
+      "sourceType": "mainProject.bean.Furn"
+    }
+  ],
+  "hints": []
+}
