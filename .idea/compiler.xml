@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringBoot" />
+        <module name="Tomcat_springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -15,7 +15,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SpringBoot" options="-parameters" />
+      <module name="SpringBoot" options="" />
+      <module name="Tomcat_springboot" options="-parameters" />
       <module name="spring-boot-start" options="-parameters" />
     </option>
   </component>
