@@ -1,0 +1,34 @@
+tiger:
+  id: 100
+  name: 王大炮
+  age: 500
+  isMarried: false
+  birthday: 2000/11/11
+#  对象写法
+#  car: {name: 宝马, price: 200000}
+  car:
+    name: 宝马
+    price: 30000
+
+  skill: [skill,skill2]
+  hobby: [1,2,3,4]
+  wife: {no1: 1, no2: 2, no3: 3}
+  salaries: [10000,10000]
+  cars:
+    group1:
+      - {name: 奔驰, price: 99999}
+      - name: 保时捷
+        price: 202020
+spring:
+  mvc:
+#    设置前缀
+    static-path-pattern: /springboot/**
+    hiddenmethod:
+      filter:
+        enabled: true
+    view:
+      prefix: /springboot/
+      suffix: .html
+  web:
+    resources:
+      static-locations: []

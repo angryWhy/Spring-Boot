@@ -1,13 +1,13 @@
 package mainProject.config;
 
-import mainProject.bean.B;
-import mainProject.bean.Furn;
-import mainProject.bean.Monster;
+import bean.B;
+import bean.Furn;
+import bean.Monster;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.Scope;
+
 //Import注解，可以指定注入类型的组件，默认情况下组件的名字或者id就是全路径名字
 @Import(value = {B.class})
 @Configuration(proxyBeanMethods = true)

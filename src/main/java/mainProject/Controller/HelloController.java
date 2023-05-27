@@ -1,8 +1,7 @@
 package mainProject.Controller;
 
-import mainProject.bean.Furn;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.ComponentScan;
+import lombok.extern.slf4j.Slf4j;
+import bean.Furn;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -10,18 +9,20 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 @Controller
-
+@Slf4j
 public class HelloController {
     //返回String字符串
-    @Value("${my.website}")
+//    @Value("${my.website}")
     private String website;
     @Resource
     private Furn furn;
     @RequestMapping("/hello")
     @ResponseBody
-    public String hello(){
-        System.out.println(website);
-        return "hello,springboot";
+    public Furn hello(){
+        log.info("furn-"+furn);
+        log.info("furn={}",furn);
+        System.out.println("Slf4j");
+        return furn;
     }
     @RequestMapping("/furn")
     @ResponseBody

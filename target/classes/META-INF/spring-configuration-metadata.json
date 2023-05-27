@@ -1,26 +1,86 @@
 {
   "groups": [
     {
+      "name": "amonster",
+      "type": "bean.Tiger",
+      "sourceType": "bean.Tiger"
+    },
+    {
       "name": "furn01",
-      "type": "mainProject.bean.Furn",
-      "sourceType": "mainProject.bean.Furn"
+      "type": "bean.Furn",
+      "sourceType": "bean.Furn"
     }
   ],
   "properties": [
     {
+      "name": "amonster.age",
+      "type": "java.lang.Integer",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.birth",
+      "type": "java.util.Date",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.car",
+      "type": "bean.Car",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.cars",
+      "type": "java.util.Map<java.lang.String,java.util.List<bean.Car>>",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.hobby",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.id",
+      "type": "java.lang.Integer",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.is-married",
+      "type": "java.lang.Boolean",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.name",
+      "type": "java.lang.String",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.salaries",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.skill",
+      "type": "java.lang.String[]",
+      "sourceType": "bean.Tiger"
+    },
+    {
+      "name": "amonster.wife",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "bean.Tiger"
+    },
+    {
       "name": "furn01.id",
       "type": "java.lang.Integer",
-      "sourceType": "mainProject.bean.Furn"
+      "sourceType": "bean.Furn"
     },
     {
       "name": "furn01.name",
       "type": "java.lang.String",
-      "sourceType": "mainProject.bean.Furn"
+      "sourceType": "bean.Furn"
     },
     {
       "name": "furn01.price",
       "type": "java.lang.Double",
-      "sourceType": "mainProject.bean.Furn"
+      "sourceType": "bean.Furn"
     }
   ],
   "hints": []

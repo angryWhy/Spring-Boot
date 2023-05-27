@@ -1,13 +1,16 @@
 package mainProject.config;
 
-import mainProject.bean.C;
-import mainProject.bean.Monster;
+import bean.C;
+import bean.Monster;
+import bean.Tiger;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 @Configuration(proxyBeanMethods = true)
+@Import({Tiger.class})
 public class BeanConfig2 {
     @Bean(name = "monster_alias2")
     public Monster monster01(){
