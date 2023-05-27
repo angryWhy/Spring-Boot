@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SpringController {
-    @RequestMapping("/myboot")
+    @RequestMapping("/hi")
     public String runBoot(){
         return "my-boot,contoller";
     }
