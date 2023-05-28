@@ -12,4 +12,9 @@ public class HelloController {
     public String hello(){
         return "hello,springboot2";
     }
+    @RequestMapping("/err")
+    @ResponseBody
+    public String err(){
+        return "hello,err";
+    }
 }
