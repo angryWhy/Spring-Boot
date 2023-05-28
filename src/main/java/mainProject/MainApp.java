@@ -3,12 +3,15 @@ package mainProject;
 import bean.Furn;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.ConfigurableApplicationContext;
 
 //表示这是一个springboot的应用
 //scanBasePackages,代表我要扫描的包，默认扫描的是MainApp所在的包
 
 @SpringBootApplication()
+@ServletComponentScan("mainProject")
+//@ServletComponentScan("mainProject")
 public class MainApp {
     //传统注解方式就可以使用
     public static void main(String[] args) {
