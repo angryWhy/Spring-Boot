@@ -32,3 +32,18 @@ spring:
   web:
     resources:
       static-locations: []
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ssm?useSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF-8
+    username: root
+    password: PO1!pVRNJp4i
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+#  配置端口
+  port: 9090
+  tomcat:
+    threads:
+      max: 200
+      min-spare: 5
+    accept-count: 200
+    max-connections: 2000
+    connection-timeout: 10000

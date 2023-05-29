@@ -73,6 +73,16 @@
       "sourceType": "bean.Furn"
     },
     {
+      "name": "furn01.img-path",
+      "type": "java.lang.String",
+      "sourceType": "bean.Furn"
+    },
+    {
+      "name": "furn01.marker",
+      "type": "java.lang.String",
+      "sourceType": "bean.Furn"
+    },
+    {
       "name": "furn01.name",
       "type": "java.lang.String",
       "sourceType": "bean.Furn"
@@ -80,6 +90,16 @@
     {
       "name": "furn01.price",
       "type": "java.lang.Double",
+      "sourceType": "bean.Furn"
+    },
+    {
+      "name": "furn01.sales",
+      "type": "java.lang.Double",
+      "sourceType": "bean.Furn"
+    },
+    {
+      "name": "furn01.stock",
+      "type": "java.lang.Integer",
       "sourceType": "bean.Furn"
     }
   ],

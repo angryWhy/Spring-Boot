@@ -14,5 +14,9 @@ import org.springframework.stereotype.Component;
 public class Furn {
     private Integer id;
     private String name;
+    private String marker;
     private Double price;
+    private Double sales;
+    private Integer stock;
+    private String img_path;
 }

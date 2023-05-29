@@ -12,7 +12,7 @@ import java.io.IOException;
 //对servlet做了映射的路径
 //注入的原生的servlet，不会被springboot拦截
 //需要servletComponentScan扫描原生的包，才能注入进去
-@WebServlet(urlPatterns = {"/servlet01","/servlet02"})
+//@WebServlet(urlPatterns = {"/servlet01","/servlet02"})
 public class MyServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

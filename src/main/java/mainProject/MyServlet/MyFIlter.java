@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.logging.LogRecord;
 @Slf4j
-@WebFilter(urlPatterns = {"/css/*","/images/*"})
+//@WebFilter(urlPatterns = {"/css/*","/images/*"})
 public class MyFIlter implements Filter {
 
     @Override
