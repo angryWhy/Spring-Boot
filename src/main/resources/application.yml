@@ -37,6 +37,25 @@ spring:
     username: root
     password: PO1!pVRNJp4i
     driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      stat-view-servlet:
+        enabled: true
+        login-username: root
+        login-password: 666
+        reset-enable: false
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: "*.js,*.png"
+      filter:
+        stat:
+          enabled: true
+          log-slow-sql: true
+          slow-sql-millis: 1000
+        wall:
+          config:
+            drop-table-allow: false
+          enabled: true
 server:
 #  配置端口
   port: 9090

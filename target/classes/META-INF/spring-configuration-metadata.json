@@ -9,6 +9,11 @@
       "name": "furn01",
       "type": "bean.Furn",
       "sourceType": "bean.Furn"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "mainProject.config.DruidDataSourceConfig",
+      "sourceType": "mainProject.config.DruidDataSourceConfig"
     }
   ],
   "properties": [
